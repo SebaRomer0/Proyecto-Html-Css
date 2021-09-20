@@ -1,0 +1,34 @@
+
+$header-fondo-height: 650px;
+$header-fondo-width: 100%;
+
+
+.header__fondo__imagen {
+    background-image: url(../pages/imagen/chicas-en-la-playa-de-espalda.jpg);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+    height: $header-fondo-height;
+    width: $header-fondo-width;
+    padding: 0%;
+}
+
+.navegador__menu__listas {
+    ul{
+        li{
+            font-size: 25px;
+            a:hover{
+                background-color: white;
+                color: black;
+                cursor: pointer;
+                width: 100%;
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+
+.logo__imagen--width {
+    width: 80%;
+}

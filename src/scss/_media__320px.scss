@@ -1,0 +1,23 @@
+$media320-fondo-position: -380px;
+$media320-fondo-height: 600px;
+
+
+
+
+@media (max-width: 320px) {
+    .logo-img {
+        width: 70%;
+        height: 100px;
+    }
+    .header-imagen-fondo {
+        background-image: url(../Imagen/chicas-en-la-playa-de-espalda.jpg);
+        background-repeat: no-repeat;
+        background-position: $media320-fondo-position;
+        background-size: cover;
+        height: $media320-fondo-height;
+        top: 0%;
+    }
+    .media1 {
+        display: none;
+    }
+}

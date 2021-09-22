@@ -1,7 +1,7 @@
 # Como usar
-Clonar el repositorio
-Ejecutar el comando npm install
-Ejecutar el comando npm run watch-css
+-Clonar el repositorio
+-Ejecutar el comando npm install
+-Ejecutar el comando npm run watch-css
 
 ## Cambios Generados 13/09
 - Se agrego un archivo llamado “PAGES” donde va contener PAQUETES.html, TRASLADOS.html y CONTACTOS.html. Además, también las imágenes y estilos del INDEX.html

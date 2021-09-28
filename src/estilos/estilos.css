@@ -23,8 +23,9 @@ body {
     width: 100%;
     font-size: 30px; }
 
-.logo__imagen--width {
-  width: 80%; }
+.logo__imagen {
+  width: 80%;
+  filter: brightness(9); }
 
 .titulo__contenedor {
   color: #3030f0;

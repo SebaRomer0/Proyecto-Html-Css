@@ -129,6 +129,9 @@ table {
   color: white;
   text-align: center; }
 
+.clase1 {
+  color: red; }
+
 .redesSocial__fixed {
   position: fixed;
   bottom: 0px;

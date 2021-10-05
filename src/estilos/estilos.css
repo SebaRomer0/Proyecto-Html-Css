@@ -27,6 +27,23 @@ body {
   width: 80%;
   filter: brightness(9); }
 
+.titulo__header {
+  font-size: 55px;
+  color: #3030f0;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: bold; }
+
+.titulo__header__secundario {
+  font-size: 15px;
+  font-weight: bold;
+  color: #eeeeee;
+  text-transform: uppercase;
+  word-spacing: 8px;
+  text-shadow: 2px 2px 5px blue; }
+
+.titulo__header__resalto {
+  font-size: 25px; }
+
 .titulo__contenedor {
   color: #3030f0;
   text-align: center;
@@ -79,7 +96,7 @@ body {
 .sombra, table {
   box-shadow: 5px 5px; }
 
-.sombra__imagen, .bariloche-ico, .Ezeiza-ico, .corrientes-ico {
+.sombra__imagen, .bariloche-ico, .ezeiza-ico, .corrientes-ico {
   color: #a7a1a1;
   box-shadow: 3px 3px; }
 
@@ -98,21 +115,21 @@ table {
     border: 1px solid; }
 
 .bariloche-ico {
-  background-image: url("/src/pages/imagen/img Paquetes/bariloche.png");
+  background-image: url("/src/pages/imagen/img-paquetes/bariloche.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
   width: 100%; }
 
-.Ezeiza-ico {
-  background-image: url("/src/pages/imagen/img Paquetes/Ezeiza.png");
+.ezeiza-ico {
+  background-image: url("/src/pages/imagen/img-paquetes/ezeiza.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
   width: 100%; }
 
 .corrientes-ico {
-  background-image: url("/src/pages/imagen/img Paquetes/corrientes.png");
+  background-image: url("/src/pages/imagen/img-paquetes/corrientes.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -163,7 +180,7 @@ table {
     width: 80%;
     height: 100px; }
   .header-imagen-fondo {
-    background-image: url(../Imagen/chicas-en-la-playa-de-espalda.jpg);
+    background-image: url(../imagen/chicas-en-la-playa-de-espalda.jpg);
     background-repeat: no-repeat;
     background-position: -350px;
     background-size: cover;
@@ -177,7 +194,7 @@ table {
     width: 70%;
     height: 100px; }
   .header-imagen-fondo {
-    background-image: url(../Imagen/chicas-en-la-playa-de-espalda.jpg);
+    background-image: url(../imagen/chicas-en-la-playa-de-espalda.jpg);
     background-repeat: no-repeat;
     background-position: -380px;
     background-size: cover;

@@ -1,7 +1,9 @@
 
 $header-fondo-height: 650px;
 $header-fondo-width: 100%;
-
+$header-titulo-color: rgb(48, 48, 240);
+$header-titulo-fuente:'Fjalla One', sans-serif;
+$header-titulo-fuente-t: 55px;
 
 .header__fondo__imagen {
     background-image: url(../pages/imagen/chicas-en-la-playa-de-espalda.jpg);
@@ -32,4 +34,24 @@ $header-fondo-width: 100%;
 .logo__imagen {
     width: 80%;
     filter: brightness(9);
+}
+
+.titulo__header {
+    font-size:$header-titulo-fuente-t ;
+    color: $header-titulo-color ;
+    font-family:$header-titulo-fuente ;
+    font-weight: bold;
+}
+
+.titulo__header__secundario {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(238, 238, 238);
+    text-transform: uppercase;
+    word-spacing: 8px;
+    text-shadow: 2px 2px 5px blue;
+}
+
+.titulo__header__resalto {
+    font-size: 25px;
 }

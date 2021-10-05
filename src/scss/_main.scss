@@ -95,7 +95,7 @@ table {
     }
 }
 
-@each $paquete in bariloche,Ezeiza,corrientes { .#{$paquete}-ico {
+@each $paquete in bariloche,ezeiza,corrientes { .#{$paquete}-ico {
     background-image: url("/src/pages/imagen/img\ Paquetes/#{$paquete}.png");
     background-repeat: no-repeat;
         background-size: cover;

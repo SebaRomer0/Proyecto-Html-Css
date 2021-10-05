@@ -15,3 +15,12 @@
 - Se creo Branch TESTER
 - Se creo pagina 404.html y .htaccess
 - Nuevo archivo estilos404.css
+
+## Cambios Generados 05/10
+- Se agrego:
+- Titulos de pagina con descripcion en cada una
+- Los meta descripcion y los keywords unicos en cada pagina
+- Se creo nueva clase para los encabezados <h1> en cada pagina
+- Al logo de la pagina se le agrego un link que dirige hacia la pagina principal
+- Se agrego contenido alt a todas las imagenes
+- Se puso la barra de navegacion igual en todas las paginas

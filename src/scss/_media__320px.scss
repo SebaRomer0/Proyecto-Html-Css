@@ -1,16 +1,32 @@
-$media320-fondo-position: -380px;
+$media320-fondo-position: -300px;
 $media320-fondo-height: 600px;
 
 
 
 
 @media (max-width: 320px) {
-    .logo-img {
-        width: 70%;
-        height: 100px;
+    .logo__imagen {
+        width: 160%;
+        filter: brightness(9);
+        margin-top: -30px;
+        margin-left: -30px;
     }
-    .header-imagen-fondo {
-        background-image: url(../imagen/chicas-en-la-playa-de-espalda.jpg);
+
+
+    .footer__logo{
+        width: 100%;
+    }
+
+    .nav__top{
+        margin-top: 10px;
+    }
+
+    .titulo__header__secundario {
+        padding-top: 110px;
+    }
+
+    .header__fondo__imagen {
+        background-image: url(../pages/imagen/chicas-en-la-playa-de-espalda.jpg);
         background-repeat: no-repeat;
         background-position: $media320-fondo-position;
         background-size: cover;

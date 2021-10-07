@@ -96,7 +96,8 @@ table {
 }
 
 @each $paquete in bariloche,ezeiza,corrientes { .#{$paquete}-ico {
-    background-image: url("/src/pages/imagen/img\ Paquetes/#{$paquete}.png");
+    // background-image: url("/src/pages/imagen/img\ Paquetes/#{$paquete}.png");
+    background-image: url("../pages/imagen/img-paquetes/#{$paquete}.png");
     background-repeat: no-repeat;
         background-size: cover;
         height: 300px;

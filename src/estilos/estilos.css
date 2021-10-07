@@ -25,7 +25,8 @@ body {
 
 .logo__imagen {
   width: 80%;
-  filter: brightness(9); }
+  filter: brightness(9);
+  margin-left: -150px; }
 
 .titulo__header {
   font-size: 55px;
@@ -39,7 +40,11 @@ body {
   color: #eeeeee;
   text-transform: uppercase;
   word-spacing: 8px;
-  text-shadow: 2px 2px 5px blue; }
+  text-shadow: 2px 2px 5px blue;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start; }
 
 .titulo__header__resalto {
   font-size: 25px; }
@@ -115,21 +120,21 @@ table {
     border: 1px solid; }
 
 .bariloche-ico {
-  background-image: url("/src/pages/imagen/img-paquetes/bariloche.png");
+  background-image: url("../pages/imagen/img-paquetes/bariloche.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
   width: 100%; }
 
 .ezeiza-ico {
-  background-image: url("/src/pages/imagen/img-paquetes/ezeiza.png");
+  background-image: url("../pages/imagen/img-paquetes/ezeiza.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
   width: 100%; }
 
 .corrientes-ico {
-  background-image: url("/src/pages/imagen/img-paquetes/corrientes.png");
+  background-image: url("../pages/imagen/img-paquetes/corrientes.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -176,27 +181,47 @@ table {
     transform: scale(0.95); }
 
 @media (max-width: 576px) {
-  .logo-img {
-    width: 80%;
-    height: 100px; }
-  .header-imagen-fondo {
-    background-image: url(../imagen/chicas-en-la-playa-de-espalda.jpg);
+  .logo__imagen {
+    width: 100%;
+    height: auto;
+    filter: brightness(9);
+    margin-left: -20px; }
+  .nav__top {
+    margin-top: 10px; }
+  .nav__ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .footer__logo {
+    width: 100%; }
+  .titulo__header__secundario {
+    padding-top: 80px;
+    align-content: space-around; }
+  .header__fondo__imagen {
+    background-image: url(../pages/imagen/chicas-en-la-playa-de-espalda.jpg);
     background-repeat: no-repeat;
-    background-position: -350px;
     background-size: cover;
-    height: 600px;
+    height: 500px;
     top: 0%; }
   .media1 {
     display: none; } }
 
 @media (max-width: 320px) {
-  .logo-img {
-    width: 70%;
-    height: 100px; }
-  .header-imagen-fondo {
-    background-image: url(../imagen/chicas-en-la-playa-de-espalda.jpg);
+  .logo__imagen {
+    width: 160%;
+    filter: brightness(9);
+    margin-top: -30px;
+    margin-left: -30px; }
+  .footer__logo {
+    width: 100%; }
+  .nav__top {
+    margin-top: 10px; }
+  .titulo__header__secundario {
+    padding-top: 110px; }
+  .header__fondo__imagen {
+    background-image: url(../pages/imagen/chicas-en-la-playa-de-espalda.jpg);
     background-repeat: no-repeat;
-    background-position: -380px;
+    background-position: -300px;
     background-size: cover;
     height: 600px;
     top: 0%; }

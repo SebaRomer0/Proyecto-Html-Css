@@ -34,6 +34,7 @@ $header-titulo-fuente-t: 55px;
 .logo__imagen {
     width: 80%;
     filter: brightness(9);
+    margin-left: -150px;
 }
 
 .titulo__header {
@@ -50,6 +51,10 @@ $header-titulo-fuente-t: 55px;
     text-transform: uppercase;
     word-spacing: 8px;
     text-shadow: 2px 2px 5px blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .titulo__header__resalto {
